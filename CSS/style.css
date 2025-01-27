@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url(../photoes/bg1.jpeg);
+    /* background-image: url(../photoes/bg1.jpeg); */
+    background-color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +9,21 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 5rem;
+    margin-top: 5rem;
+}
+
+body video {
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+    z-index: -1;
+}
+
+@media(min-aspect-ratio: 16/9) {
+    body video {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .link-tree {
@@ -86,9 +101,16 @@ body {
 }
 
 
-@media  screen and (max-width: 400px) {
+/* @media  screen and (max-width: 400px) {
     body {
         background-image: url(../photoes/bg2.jpg);
         margin: 0;
     }
-}
+
+    @media(min-aspect-ratio: 16/9) {
+        body video {
+            width: 100%;
+            height: auto;
+        }
+    }
+} */
