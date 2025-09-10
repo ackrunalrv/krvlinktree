@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    /* background-image: url(../photoes/bg1.jpeg); */
+    background-image: url(../photoes/bg1.jpeg);
     background-color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -85,10 +85,6 @@ body video {
 }
 
 @media screen and (max-width: 992px) {
-    .video {
-        height: 100rem;
-    }
-
     .link-tree {
         margin-top: 1rem;
         padding: 1rem;
@@ -106,7 +102,7 @@ body video {
 }
 
 
-/* @media  screen and (max-width: 400px) {
+@media  screen and (max-width: 400px) {
     body {
         background-image: url(../photoes/bg2.jpg);
         margin: 0;
@@ -118,4 +114,4 @@ body video {
             height: auto;
         }
     }
-} */
+}
