@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url(../photoes/bg1.jpeg);
-    background-color: black;
+    background-color: #2e2e2e;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@ body video {
 }
 
 .link-tree {
-    background-color: #00000048;
+    background-color: #689b8a9d;
     border: 2px solid #5d595997;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@ body video {
 
 .profile img {
     border-radius: 50%;
-    border: 2px solid green;
+    border: 2px solid #fcb53be8;
     width: 100px;
     height: 100px;
 }
@@ -61,7 +61,7 @@ body video {
 
 .links a {
     display: block;
-    background-color: #2e5dbc;
+    background-color: #355494;
     color: #fff;
     text-decoration: none;
     padding: 10px;
@@ -86,6 +86,8 @@ body video {
 
 @media screen and (max-width: 992px) {
     .link-tree {
+        background-color: #00000075;
+        border: 2px solid #fcb53bc9;
         margin-top: 1rem;
         padding: 1rem;
         height: 65rem;
