@@ -85,10 +85,14 @@ body video {
 }
 
 @media screen and (max-width: 992px) {
+    .video {
+        height: 100rem;
+    }
+
     .link-tree {
         margin-top: 1rem;
         padding: 1rem;
-        height: 60rem;
+        height: 65rem;
         width: 75%;
     }
 
@@ -97,6 +101,7 @@ body video {
         margin-right: 2rem;
         height: .5rem;
         font-size: 15px;
+        padding-bottom: 10rem;
     }
 }
 
