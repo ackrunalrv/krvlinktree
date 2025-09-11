@@ -27,7 +27,7 @@ body video {
 }
 
 .link-tree {
-    background-color: #689b8a9d;
+    background-color: #689b8a18;
     border: 2px solid #5d595997;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@ body video {
 
 .profile img {
     border-radius: 50%;
-    border: 2px solid #fcb53be8;
+    border: 2px solid #007a52;
     width: 100px;
     height: 100px;
 }
@@ -90,7 +90,7 @@ body video {
         border: 2px solid #fcb53bc9;
         margin-top: 1rem;
         padding: 1rem;
-        height: 65rem;
+        height: 68rem;
         width: 75%;
     }
 
@@ -101,10 +101,18 @@ body video {
         font-size: 15px;
         padding-bottom: 10rem;
     }
+
+    .profile {
+        padding-top: 2.5rem;
+    }
+
+    .profile img {
+        border: 2px solid #fcb53be8;
+    }
 }
 
 
-@media  screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     body {
         background-image: url(../photoes/bg2.jpg);
         background-size: cover;
